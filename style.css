@@ -4,14 +4,99 @@
     background-image: url('img/9ded2b69261ba00083f29f1d545d706f.png'); 
     background: linear-gradient(to right, #2B4A61 87% );
     background-size: cover;
-    background-position: center top -86%;
+    background-position: center top -91%;
     display: flex;
     align-items: center;
     }
-    
+
+    .background{
+        margin-bottom: 1px;
+        position: relative;
+        width: 100%;
+        height: 200%;
+        background-image: url(img/Group\ 48\ 1.png);
+        background-size: 1440px 740px;
+        background-repeat: no-repeat;
+    }
+
+    .text{
+        position: absolute;
+        width: 298px;
+        height: 96px;
+        top: 330px;
+        left: 204px;
+        color: #FFFFFF;
+    }
+
+    .text p{
+        margin: 0;
+    }
+
+    .arrow{
+        position: absolute;
+        top: 426px;
+        left: 257px;
+        width: 152px;
+        height: 40px;
+    }
+
+    .caption{
+        position: absolute;
+        width: 376px;
+        height: 123px;
+        top: 466px;
+        left: 204px;
+        color: #FFFFFF;
+    }
+
+    .join-button{
+    background-color: #0B0E66;
+color: #26C7EA;
+border: 2px solid #26C7EA;
+padding: 8px 16px;
+font-size: 17px;
+cursor: pointer;
+position: absolute; 
+bottom: 179px; 
+left: 204px; 
+width: 175px;
+height: 50px; 
+border-top-left-radius: 30px; 
+border-bottom-right-radius: 30px; 
+top: 115px;
+left: -1px;
+}
+
+.join-button::before,
+.join-button::after {
+content: '';
+position: absolute;
+width: 20px;
+height: 20px;
+background-color: #0B0E66;
+z-index: -1;
+}
+
+.join-button::before {
+top: -1px;
+left: -1px;
+}
+
+.join-button::after {
+bottom: -1px;
+right: -1px;
+}
+
+.img{
+    position: absolute;
+    top: 460px;
+    left: 1186px;
+    bottom: 490px;
+    right: 204px;
+}
+
     .logo {
         left: 204px;
-        top: 39;
     margin-right: 50px; 
     }
     
@@ -37,4 +122,39 @@
     
     .menu a:nth-child(1) {
     color: #94CFFF;
+    }
+
+    .content{
+        text-align: center;
+        margin-top: 75px;
+    }
+
+    .content p{
+        font-size: 24px;
+        color: #0A3853;
+    }
+
+    .content p:last-child{
+        color: #000000;
+        font-size: 20px;
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .contered-image{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text-container{
+        text-align: center;
+        color: #141414;
+        font-size: 24px;
+    }
+
+    .Jake{
+        color: #000000;
+        text-align: 20px;
     }
