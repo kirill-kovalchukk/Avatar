@@ -1,8 +1,5 @@
 .header {
-    width: 100%;
-    height: 150px;
     background-image: url('img/9ded2b69261ba00083f29f1d545d706f.png'); 
-    background: linear-gradient(to right, #2B4A61 87% );
     background-size: cover;
     background-position: center top -91%;
     display: flex;
@@ -11,20 +8,27 @@
 
     .background{
         margin-bottom: 1px;
-        position: relative;
-        width: 100%;
-        height: 200%;
         background-image: url(img/Group\ 48\ 1.png);
-        background-size: 1440px 740px;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
+    .button{
+        background-color: #0B0E66;
+        color: #26C7EA;
+        border: 2px solid #26C7EA;
+        padding: 8px 16px;
+        font-size: 17px;
+        cursor: pointer; 
+        width: 175px;
+        height: 50px; 
+        border-top-left-radius: 30px; 
+        border-bottom-right-radius: 30px; 
+    }
+
     .text{
-        position: absolute;
         width: 298px;
         height: 96px;
-        top: 330px;
-        left: 204px;
         color: #FFFFFF;
     }
 
@@ -33,19 +37,13 @@
     }
 
     .arrow{
-        position: absolute;
-        top: 426px;
-        left: 257px;
         width: 152px;
         height: 40px;
     }
 
     .caption{
-        position: absolute;
         width: 376px;
         height: 123px;
-        top: 466px;
-        left: 204px;
         color: #FFFFFF;
     }
 
@@ -56,21 +54,15 @@ border: 2px solid #26C7EA;
 padding: 8px 16px;
 font-size: 17px;
 cursor: pointer;
-position: absolute; 
-bottom: 179px; 
-left: 204px; 
 width: 175px;
 height: 50px; 
 border-top-left-radius: 30px; 
 border-bottom-right-radius: 30px; 
-top: 115px;
-left: -1px;
 }
 
 .join-button::before,
 .join-button::after {
 content: '';
-position: absolute;
 width: 20px;
 height: 20px;
 background-color: #0B0E66;
@@ -78,25 +70,15 @@ z-index: -1;
 }
 
 .join-button::before {
-top: -1px;
-left: -1px;
 }
 
 .join-button::after {
-bottom: -1px;
-right: -1px;
 }
 
 .img{
-    position: absolute;
-    top: 460px;
-    left: 1186px;
-    bottom: 490px;
-    right: 204px;
 }
 
     .logo {
-        left: 204px;
     margin-right: 50px; 
     }
     
@@ -105,7 +87,6 @@ right: -1px;
     margin-right: 50px; 
     display: flex;
     justify-content: space-between;
-    flex: 1;
     }
     
     .menu span {
@@ -139,10 +120,6 @@ right: -1px;
         font-size: 20px;
     }
 
-    .content{
-        text-align: center;
-    }
-
     .contered-image{
         display: block;
         margin: 0 auto;
@@ -158,3 +135,92 @@ right: -1px;
         color: #000000;
         text-align: 20px;
     }
+     
+        .container img {
+        display: block;
+        }
+        
+        .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        }
+        
+        .card {
+            
+        width: 320px;
+        height: 240px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        }
+
+        .tibxt{
+        text-align: center;
+        color: #141414;
+        font-size: 24px;
+        }
+
+        .Netiri{
+        color: #000000;
+        text-align: 20px;
+        }
+
+
+        .main-about{
+            background-image: url(img/Group\ 48\ 1.png);
+        }
+
+        .footer {
+            background-color: #1a2b38; 
+            color: #fff; 
+            text-align: center; 
+            padding: 20px 0; 
+            background-image: url(img/9ded2b69261ba00083f29f1d545d706f.png);
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           padding: 60px;
+            }
+
+            .lcxgo{
+            width: 183px;
+            height: 70px;
+            top: 3462px;
+            left: 204px;
+            }
+            
+            .footer img {
+            width: auto;
+            height: 100px;
+            }
+            
+            .footer .email {
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px; 
+            }
+            
+            .footer .email div {
+            display: inline-block;
+            }
+            
+            .footer p {
+            margin: 10px 0;
+            }
+
+            .teps{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .wand{
+            width:  653px;
+            border:  2px;   
+            }
