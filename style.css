@@ -2,8 +2,12 @@
     background-image: url('img/9ded2b69261ba00083f29f1d545d706f.png'); 
     background-size: cover;
     background-position: center top -91%;
-    display: flex;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
     }
 
     .background{
@@ -83,20 +87,15 @@ z-index: -1;
     }
     
     .menu {
-    margin-left: auto;
-    margin-right: 50px; 
     display: flex;
-    justify-content: space-between;
     }
     
     .menu span {
         display: flex;
     font-size: 20px; 
-    margin: 0 115px;
     }
 
     .menu a {
-    margin: 0 10px;
     color: #fff;
     text-decoration: none;
     }
@@ -172,6 +171,11 @@ z-index: -1;
 
         .main-about{
             background-image: url(img/Group\ 48\ 1.png);
+            padding-top: 180px;
+            padding-bottom: 179px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
 
         .footer {
@@ -217,10 +221,127 @@ z-index: -1;
                 display: flex;
                 justify-content: center;
                 text-align: center;
-                font-size: 14px;
+                font-size: 12px;
             }
 
             .wand{
             width:  653px;
             border:  2px;   
             }
+
+           .trailer{
+            background-image: url(img/8a8d0133a3ef0943ba0fad8e74a7dfde.jfif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 330px;
+            padding-bottom: 331px;
+           }
+
+           .cart{
+            background-image: url(img/Rectangle\ 20.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+           }
+
+           .card-list{
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+           .beton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: flex-end;
+            background-color: #0B0E66;
+        color: #26C7EA;
+        border: 2px solid #26C7EA;
+        padding: 8px 16px;
+        font-size: 17px;
+        cursor: pointer; 
+        width: 175px;
+        height: 50px; 
+        border-top-left-radius: 30px; 
+        border-bottom-right-radius: 30px; 
+           }
+
+           .container{
+            width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+           }
+
+           .flex-1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           }
+
+           .flex-2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row-reverse;
+            
+           }
+
+           .main-right{
+            display: flex;
+            flex-direction: column;
+           }
+
+           .flex-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+           }
+
+         .flex-5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+         }
+
+         .flex-6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: space-around;  bacground image lianer gradient
+         }
+
+         .flex-7{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+         }
+
+        .flex-4{
+            display: flex;
+            justify-content: center;
+        }
+
+        .ferry{
+            display: flex;
+            justify-content: center;
+        }
+
+        
