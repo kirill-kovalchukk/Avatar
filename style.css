@@ -1,5 +1,5 @@
 .header {
-    background-image: url('img/9ded2b69261ba00083f29f1d545d706f.png'); 
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87)0%, rgba(43, 74, 97, 0.87) 100%),  url('img/9ded2b69261ba00083f29f1d545d706f.png');  
     background-size: cover;
     background-position: center top -91%;
     align-items: center;
@@ -73,15 +73,6 @@ background-color: #0B0E66;
 z-index: -1;
 }
 
-.join-button::before {
-}
-
-.join-button::after {
-}
-
-.img{
-}
-
     .logo {
     margin-right: 50px; 
     }
@@ -98,6 +89,8 @@ z-index: -1;
     .menu a {
     color: #fff;
     text-decoration: none;
+    margin-right: 45px;
+    display: inline-block;
     }
     
     .menu a:nth-child(1) {
@@ -149,7 +142,6 @@ z-index: -1;
         }
         
         .card {
-            
         width: 320px;
         height: 240px;
         background-color: rgba(255, 255, 255, 0.7);
@@ -177,13 +169,13 @@ z-index: -1;
             background-repeat: no-repeat;
             background-position: center;
         }
-
+      
         .footer {
             background-color: #1a2b38; 
             color: #fff; 
             text-align: center; 
             padding: 20px 0; 
-            background-image: url(img/9ded2b69261ba00083f29f1d545d706f.png);
+            background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87)0%, rgba(43, 74, 97, 0.87) 100%),   url(img/9ded2b69261ba00083f29f1d545d706f.png);
            background-size: cover;
            background-position: center;
            background-repeat: no-repeat;
@@ -225,8 +217,12 @@ z-index: -1;
             }
 
             .wand{
-            width:  653px;
-            border:  2px;   
+                width: 1px; 
+                height: 100px; 
+                background-color: white; 
+                display: flex;
+                flex-direction: row;
+                position: relative;
             }
 
            .trailer{
@@ -323,7 +319,7 @@ z-index: -1;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            align-content: space-around;  bacground image lianer gradient
+            align-content: space-around; 
          }
 
          .flex-7{
@@ -344,4 +340,7 @@ z-index: -1;
             justify-content: center;
         }
 
-        
+        .img-1{
+            padding-top: 75px;
+            padding-bottom: 10px;
+        }
