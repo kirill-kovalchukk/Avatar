@@ -216,15 +216,6 @@ z-index: -1;
                 font-size: 12px;
             }
 
-            .wand{
-                width: 1px; 
-                height: 100px; 
-                background-color: white; 
-                display: flex;
-                flex-direction: row;
-                position: relative;
-            }
-
            .trailer{
             background-image: url(img/8a8d0133a3ef0943ba0fad8e74a7dfde.jfif);
             background-size: cover;
